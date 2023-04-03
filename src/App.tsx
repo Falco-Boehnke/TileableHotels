@@ -1,57 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <>
+      <header className="header"></header>
+      <div className="header__title">Mobile</div>
+      <main className="content-wrapper">
+        <section className="tile-list">
+          <div className="tile">
+            <div className="tile__image">
+              <img src="images/hotel-02.jpg" alt="" />
+            </div>
+            <div className="tile__title">
+              <div className="tile__stars">
+                <span className="tile__star" />
+                <span className="tile__star" />
+                <span className="tile__star" />
+              </div>
+              <h2>Hotel 2</h2>
+              <span className="tile__title__location">
+                Köln - 1,2 km entfernt vom Stadtzentrum
+              </span>
+            </div>
+            <div className="tile__details">
+              <div>182 Zimmer - 12 Tagungsräume</div>
+              <div>
+                <span>7,2</span>
+                <span>Sehr gut</span>
+              </div>
+            </div>
+
+            <div>
+              <a href="#">Details ansehen</a>
+            </div>
+            <div>ab 59€</div>
+
+            <button>Auswählen</button>
+          </div>
+        </section>
+      </main>
+    </>
   );
 }
 
