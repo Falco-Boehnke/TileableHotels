@@ -28,22 +28,27 @@ html {
   margin: 0 auto;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.tile {
+  max-width: 30rem;
+  padding: 1rem;
+  margin: 0 auto;
+  border-top: 2px solid;
+  border-right: none;
+  border-bottom: 1px solid;
+  border-left: none;
+  border-color: #e0e0e0;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.tile__image{
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
+.tile__image > img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 9rem;
+  object-fit: cover;
+  object-position: center 60%;
   }
   50% {
     transform: translateY(10px);
