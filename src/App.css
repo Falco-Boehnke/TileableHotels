@@ -1,16 +1,31 @@
-.App {
-  text-align: center;
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  height: 4rem;
+  padding-left: 2rem;
+
+  background-color: #89375f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+.header__title {
+  min-width: 24rem;
+  max-width: 60%;
+  margin: 0 auto;
+
+  position: relative;
+  top: -3rem;
+
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
   }
+.content-wrapper {
+  /* background-color: aqua; */
+  min-width: 24rem;
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 .App-header {
