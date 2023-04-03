@@ -1,0 +1,119 @@
+{
+    "hotels": [
+        {
+            "id": "4321-4321-4321",
+            "slug": "Das Hotel 1",
+            "image": {
+                "src": "/images/hotel-01.jpg",
+                "alt": "Zimmerbild für Hotel 1"
+            },
+            "tileTitle": {
+                "starCount": 4,
+                "headline": "Hotel 1",
+                "locationLabel": "Köln - 0.3 km entfernt vom Stadtzentrum"
+            },
+            "tileDetails": {
+                "capacityLabel": "262 Zimmer · 8 Tagungsräume",
+                "hasHygieneCertificate": true,
+                "grade": {
+                    "points": 8.5,
+                    "label": "Sehr gut"
+                }
+            },
+            "detailsUrl": "/probably-a-slug",
+            "price": "ab 79€"
+        },
+        {
+            "id": "1234-1234-1234",
+            "slug": "Das Hotel 2",
+            "image": {
+                "src": "/images/hotel-02.jpg",
+                "alt": "Zimmerbild für Hotel 2"
+            },
+            "tileTitle": {
+                "starCount": 3,
+                "headline": "Hotel 2",
+                "locationLabel": "Köln - 1,2 km entfernt vom Stadtzentrum"
+            },
+            "tileDetails": {
+                "capacityLabel": "182 Zimmer · 12 Tagungsräume",
+                "hasHygieneCertificate": false,
+                "grade": {
+                    "points": 7.2,
+                    "label": "Sehr gut"
+                }
+            },
+            "detailsUrl": "/probably-a-slug",
+            "price": "ab 59€"
+        },
+        {
+            "id": "4321-1234-4321",
+            "slug": "Das Hotel 3",
+            "image": {
+                "src": "/images/hotel-03.jpg",
+                "alt": "Zimmerbild für Hotel 3"
+            },
+            "tileTitle": {
+                "starCount": 5,
+                "headline": "Hotel 3",
+                "locationLabel": "Köln - 0.3 km entfernt vom Stadtzentrum"
+            },
+            "tileDetails": {
+                "capacityLabel": "332 Zimmer · 18 Tagungsräume",
+                "hasHygieneCertificate": true,
+                "grade": {
+                    "points": 6,
+                    "label": "Ansprechend"
+                }
+            },
+            "detailsUrl": "/probably-a-slug",
+            "price": "ab 79€"
+        },
+        {
+            "id": "1234-1234-1234",
+            "slug": "Das Hotel 2",
+            "image": {
+                "src": "/images/hotel-02.jpg",
+                "alt": "Zimmerbild für Hotel 2"
+            },
+            "tileTitle": {
+                "starCount": 3,
+                "headline": "Hotel 2",
+                "locationLabel": "Köln - 1,2 km entfernt vom Stadtzentrum"
+            },
+            "tileDetails": {
+                "capacityLabel": "182 Zimmer · 12 Tagungsräume",
+                "hasHygieneCertificate": false,
+                "grade": {
+                    "points": 7.2,
+                    "label": "Sehr gut"
+                }
+            },
+            "detailsUrl": "/probably-a-slug",
+            "price": "ab 59€"
+        },
+        {
+            "id": "4321-1234-4321",
+            "slug": "Das Hotel 3",
+            "image": {
+                "src": "/images/hotel-03.jpg",
+                "alt": "Zimmerbild für Hotel 3"
+            },
+            "tileTitle": {
+                "starCount": 5,
+                "headline": "Hotel 3",
+                "locationLabel": "Köln - 0.3 km entfernt vom Stadtzentrum"
+            },
+            "tileDetails": {
+                "capacityLabel": "332 Zimmer · 18 Tagungsräume",
+                "hasHygieneCertificate": true,
+                "grade": {
+                    "points": 6,
+                    "label": "Ansprechend"
+                }
+            },
+            "detailsUrl": "/probably-a-slug",
+            "price": "ab 79€"
+        }
+    ]
+}
