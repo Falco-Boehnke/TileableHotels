@@ -2,6 +2,7 @@ import { TileDetails } from "./TileDetails/TileDetails";
 import { TileTitle } from "./TileTitle/TitleTile";
 import type { TileDetailsProps } from "./TileDetails/TileDetails";
 import type { TileTitleProps } from "./TileTitle/TitleTile";
+import { TileSelectionButton } from "./TileSelectionButton/TileSelectionButton";
 
 interface HotelTileProps {
   image?: {
@@ -29,18 +30,14 @@ export const HotelTile = ({
           <img src={image.src} alt={image.alt} />
         </div>
       )}
-      <TileTitle {...tileTitle} />
-      <TileDetails {...tileDetails} />
-
-      <div className="tile__link-details">
-        <a href={detailsUrl}>Details ansehen</a>
+      <div className="tile-data-wrapper">
+        <TileTitle {...tileTitle} />
+        <TileDetails {...tileDetails} />
+        <div className="tile__link-details">
+          <a href={detailsUrl}>Details ansehen</a>
+        </div>
       </div>
-      <div className="tile__price_details">{price}</div>
-
-      <button className="tile__selection-button">
-        <span className="tile__selection-button__icon" />
-        Auswählen
-      </button>
+      <TileSelectionButton price={price} />
     </div>
   );
 };
