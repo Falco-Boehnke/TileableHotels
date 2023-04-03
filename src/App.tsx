@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { HotelTile } from "./components/HotelTile/HotelTile";
-import { HotelData, HotelList } from "./types/hotelType";
+import { HotelList } from "./types/hotelType";
 function App() {
   const [hotelsList, setHotels] = useState<HotelList>({ hotels: [] });
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -29,12 +29,13 @@ function App() {
   return (
     <>
       <header className="header"></header>
-      <div className="header__title">Mobile</div>
+      <div className="header__title"></div>
       <main className="content-wrapper">
         <section className="tile-list">
-          {hotelsList.hotels.map((hotel) => {
+          {hotelsList.hotels.map((hotel, index) => {
             return (
               <HotelTile
+                key={`hotel-tile-${index}`}
                 image={
                   (!!hotel.image && {
                     src: hotel.image.src,
