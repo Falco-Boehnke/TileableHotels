@@ -4,7 +4,7 @@
             "id": "4321-4321-4321",
             "slug": "Das Hotel 1",
             "image": {
-                "src": "/images/hotel-01.jpg",
+                "src": "images/hotel-01.jpg",
                 "alt": "Zimmerbild für Hotel 1"
             },
             "tileTitle": {
@@ -27,7 +27,7 @@
             "id": "1234-1234-1234",
             "slug": "Das Hotel 2",
             "image": {
-                "src": "/images/hotel-02.jpg",
+                "src": "images/hotel-02.jpg",
                 "alt": "Zimmerbild für Hotel 2"
             },
             "tileTitle": {
@@ -50,7 +50,7 @@
             "id": "4321-1234-4321",
             "slug": "Das Hotel 3",
             "image": {
-                "src": "/images/hotel-03.jpg",
+                "src": "images/hotel-03.jpg",
                 "alt": "Zimmerbild für Hotel 3"
             },
             "tileTitle": {
@@ -73,7 +73,7 @@
             "id": "1234-1234-1234",
             "slug": "Das Hotel 2",
             "image": {
-                "src": "/images/hotel-02.jpg",
+                "src": "images/hotel-02.jpg",
                 "alt": "Zimmerbild für Hotel 2"
             },
             "tileTitle": {
@@ -96,7 +96,7 @@
             "id": "4321-1234-4321",
             "slug": "Das Hotel 3",
             "image": {
-                "src": "/images/hotel-03.jpg",
+                "src": "images/hotel-03.jpg",
                 "alt": "Zimmerbild für Hotel 3"
             },
             "tileTitle": {
