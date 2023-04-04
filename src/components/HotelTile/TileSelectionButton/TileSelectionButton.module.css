@@ -1,0 +1,70 @@
+.tile__selection-button {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #89375f;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #89375f;
+
+  cursor: pointer;
+
+  transition: box-shadow 0.05s;
+}
+
+.tile__selection-button--selected {
+  display: grid;
+  grid-template-columns: 2rem 8rem;
+  gap: 0.5rem;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  background-color: #89375f;
+  color: #ffffff !important;
+}
+
+.tile__selection-button__icon {
+  justify-self: end;
+  content: url("../../../../public/icons/icon-check.svg");
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.tile__selection-button__label {
+  justify-self: left;
+  margin-top: 2px;
+}
+
+.tile__selection-button:hover {
+  color: rgba(137, 55, 95, 0.9);
+  -webkit-box-shadow: 0px 0px 3px 0px #89375f;
+  -moz-box-shadow: 0px 0px 3px 0px #89375f;
+  box-shadow: 0px 0px 3px 0px #89375f;
+}
+
+.tile__price_details {
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 990px) {
+  .price-button-wrapper {
+    align-self: end;
+  }
+
+  .tile__selection-button--selected {
+    height: 2.7rem;
+    padding: 0.5rem !important;
+    display: grid;
+    grid-template-columns: 2rem 8rem;
+    border: 1px solid #ffffff;
+    background-color: #89375f;
+    color: #ffffff !important;
+  }
+
+  .tile__selection-button__label {
+    justify-self: left;
+    margin-top: 2px;
+  }
+}
