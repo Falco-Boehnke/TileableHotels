@@ -126,6 +126,7 @@ html {
 
 .tile__details__rating {
   width: 100%;
+  min-height: 1.5rem;
 }
 
 .tile__details__grade {
