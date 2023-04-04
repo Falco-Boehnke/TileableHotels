@@ -1,9 +1,8 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
-
+import selectionReducer from './../components/HotelTile/TileSelectionButton/selectionSlice'
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    btnSelection: selectionReducer
   },
 });
 
