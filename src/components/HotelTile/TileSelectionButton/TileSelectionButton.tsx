@@ -32,12 +32,16 @@ export const TileSelectionButton = ({
         className={`${styles["tile__selection-button"]}
           ${isSelected ? styles["tile__selection-button--selected"] : ""}`}
       >
-        <span
-          className={isSelected ? styles["tile__selection-button__icon"] : ""}
-        />
-        <span className={styles["tile__selection-button__label"]}>
-          {isSelected ? "Ausgewählt" : "Auswählen"}
-        </span>
+        <div className={styles["tile__selection-button__icon-text"]}>
+          <div
+            className={`${styles["tile__selection-button__icon"]} ${
+              isSelected ? styles["tile__selection-button__icon--selected"] : ""
+            }`}
+          />
+          <div className={styles["tile__selection-button__label"]}>
+            {isSelected ? "Ausgewählt" : "Auswählen"}
+          </div>
+        </div>
       </button>
     </div>
   );
