@@ -1,5 +1,5 @@
 .hygiene-modal-wrapper {
-  position: absolute;
+  position: fixed;
   background-color: rgb(21, 152, 149, 0.4);
   height: 100dvh;
   width: 100dvw;
