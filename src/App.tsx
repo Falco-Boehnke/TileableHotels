@@ -59,6 +59,7 @@ function App() {
                   capacityLabel: hotel.tileDetails?.capacityLabel || "",
                   hasHygieneCertificate:
                     !!hotel.tileDetails?.hasHygieneCertificate,
+                  ratings: hotel?.tileDetails?.ratings || [],
                   ...(hotel.tileDetails?.grade && {
                     grade: {
                       points: hotel.tileDetails.grade.points,

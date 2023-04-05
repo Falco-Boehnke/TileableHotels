@@ -1,0 +1,50 @@
+.hygiene-modal-wrapper {
+  position: absolute;
+  background-color: rgb(21, 152, 149, 0.4);
+  height: 100dvh;
+  width: 100dvw;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center center;
+}
+
+.hygiene-modal {
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 1rem;
+  min-width: 15rem;
+  display: grid;
+  grid-template-rows: 1rem 100%;
+}
+
+.hygiene-modal__close {
+  height: 1rem;
+  width: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  justify-self: right;
+}
+
+.modal-content {
+  padding: 0 1rem;
+}
+.modal-content > span {
+  color: #757575;
+  font-size: 0.75rem;
+}
+.modal-content > h5 {
+  padding-top: 0.25rem;
+  margin: 0;
+}
+
+.modal-content > ul {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.modal-content > ul > li {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #E0E0E0;
+}
