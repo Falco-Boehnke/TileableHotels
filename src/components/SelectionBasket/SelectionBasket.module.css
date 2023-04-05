@@ -1,5 +1,6 @@
 .selection-basket__wrapper {
   position: relative;
+  cursor: pointer;
 }
 
 .selection-basket__wrapper > div {
