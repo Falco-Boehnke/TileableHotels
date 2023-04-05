@@ -4,6 +4,7 @@ import { TileDetailsModal } from "./TileDetailsModal";
 export interface TileDetailsProps {
   capacityLabel?: string;
   hasHygieneCertificate?: boolean;
+  ratings: Array<number>;
   grade?: {
     points: number;
     label: string;
@@ -14,8 +15,15 @@ export const TileDetails = ({
   capacityLabel,
   hasHygieneCertificate,
   grade,
+  // eslint-disable-next-line no-empty-pattern
+  ratings,
 }: TileDetailsProps) => {
   const [isHygieneModalOpen, setIsHygieneModalOpen] = useState(false);
+
+  const ratingAvg =
+    ratings.reduce((partialSum, a) => partialSum + a, 0) / ratings.length;
+  const shortenedRatingAvg = Math.round(ratingAvg * 10) / 10;
+  const computedRatingLabel = getLabelForRating(shortenedRatingAvg);
 
   return (
     <>
@@ -44,9 +52,15 @@ export const TileDetails = ({
               </div>
             </>
           )}
-          {!!grade && (
+          {(!grade || ratings.length > 0) && (
             <div className="flex flex--gap tile__details__rating">
-              <div className="tile__details__grade">{grade.points}</div>
+              <div className="tile__details__grade">{shortenedRatingAvg}</div>
+              <span>{computedRatingLabel}</span>
+            </div>
+          )}
+          {!!grade && ratings.length < 1 && (
+            <div className="flex flex--gap tile__details__rating">
+              <div className="tile__details__grade">{grade?.points}</div>
               <span>{grade.label}</span>
             </div>
           )}
@@ -55,3 +69,9 @@ export const TileDetails = ({
     </>
   );
 };
+function getLabelForRating(shortenedRatingAvg: number) {
+  if (shortenedRatingAvg < 6) return "Ansprechend";
+  else if (shortenedRatingAvg > 6 && shortenedRatingAvg < 8) return "Gut";
+  else return "Sehr gut";
+}
+
