@@ -17,6 +17,7 @@ export interface HotelData {
     "tileDetails"?: {
         "capacityLabel"?: string,
         "hasHygieneCertificate"?: boolean,
+        "ratings": Array<number>,
         "grade"?: {
             "points": number,
             "label": string
