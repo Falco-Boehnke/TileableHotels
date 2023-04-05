@@ -3,9 +3,10 @@ import { TileTitle } from "./TileTitle/TitleTile";
 import type { TileDetailsProps } from "./TileDetails/TileDetails";
 import type { TileTitleProps } from "./TileTitle/TitleTile";
 import { TileSelectionButton } from "./TileSelectionButton/TileSelectionButton";
+import { HotelSelection } from "../../types/hotelType";
 
 interface HotelTileProps {
-  dataKey: string;
+  hotelSelection: HotelSelection;
   image?: {
     src: string;
     alt: string;
@@ -15,7 +16,7 @@ interface HotelTileProps {
 }
 
 export const HotelTile = ({
-  dataKey,
+  hotelSelection,
   image,
   price,
   detailsUrl,
@@ -39,7 +40,7 @@ export const HotelTile = ({
           <a href={detailsUrl}>Details ansehen</a>
         </div>
       </div>
-      <TileSelectionButton dataKey={dataKey} price={price} />
+      <TileSelectionButton hotel={hotelSelection} price={price} />
     </div>
   );
 };

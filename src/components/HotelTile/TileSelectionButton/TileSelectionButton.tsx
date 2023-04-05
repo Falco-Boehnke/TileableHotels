@@ -2,24 +2,19 @@ import { useEffect, useRef, useState } from "react";
 import "./../../../App.css";
 import styles from "./TileSelectionButton.module.css";
 import { useDispatch } from "react-redux";
-import { addSelection } from "./selectionSlice";
+import { toggleSelection } from "./selectionSlice";
+import { HotelSelection } from "../../../types/hotelType";
 interface TileSelectionButtonProps {
-  dataKey: string;
+  hotel: HotelSelection;
   price: string;
 }
 
 export const TileSelectionButton = ({
-  dataKey,
+  hotel,
   price,
 }: TileSelectionButtonProps) => {
   const [isSelected, setIsSelected] = useState(false);
-  const selectionState = useRef(false);
-  // const reduxData = useSelector((state) => (state as any).btnSelection.value);
   const dispatch = useDispatch();
-
-  useEffect(() => {
-    selectionState.current = !isSelected;
-  });
 
   return (
     <div className={styles["price-button-wrapper"]}>
@@ -27,7 +22,7 @@ export const TileSelectionButton = ({
       <button
         onClick={() => {
           setIsSelected(!isSelected);
-          dispatch(addSelection({ holyshit: "This might work" }));
+          dispatch(toggleSelection(hotel));
         }}
         className={`${styles["tile__selection-button"]}
           ${isSelected ? styles["tile__selection-button--selected"] : ""}`}

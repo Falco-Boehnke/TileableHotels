@@ -3,7 +3,7 @@ import "./App.css";
 import { HotelTile } from "./components/HotelTile/HotelTile";
 import { HotelList } from "./types/hotelType";
 import { useDispatch } from "react-redux";
-import { addButtonTemplates } from "./components/HotelTile/TileSelectionButton/selectionSlice";
+import { SelectionBasket } from "./components/SelectionBasket/SelectionBasket";
 function App() {
   const [hotelsList, setHotels] = useState<HotelList>({ hotels: [] });
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -33,16 +33,23 @@ function App() {
   return (
     <>
       <header className="header"></header>
-      <div className="header__title"></div>
+      <div className="header__title__wrapper">
+        <span>Mobile</span>
+        <SelectionBasket />
+      </div>
       <main className="content-wrapper">
         <section className="tile-list">
           {hotelsList.hotels.map((hotel, index) => {
             const key = `hotelTile${index}`;
-            dispatch(addButtonTemplates({ [key]: false }));
             return (
               <HotelTile
                 key={key}
-                dataKey={key}
+                hotelSelection={{
+                  id: hotel.id,
+                  slug: hotel.slug,
+                  tileTitle: { ...hotel.tileTitle },
+                  detailsUrl: hotel.detailsUrl,
+                }}
                 image={
                   (!!hotel.image && {
                     src: hotel.image.src,

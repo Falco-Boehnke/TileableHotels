@@ -30,7 +30,7 @@
                     "label": "Sehr gut"
                 }
             },
-            "detailsUrl": "/probably-a-slug",
+            "detailsUrl": "details/hotel-1",
             "price": "ab 79€"
         },
         {
@@ -64,11 +64,11 @@
                     "label": "Sehr gut"
                 }
             },
-            "detailsUrl": "/probably-a-slug",
+            "detailsUrl": "details/hotel-2",
             "price": "ab 59€"
         },
         {
-            "id": "4321-1234-4321",
+            "id": "4242-1234-4321",
             "slug": "Das Hotel 3",
             "image": {
                 "src": "images/hotel-03.jpg",
@@ -96,19 +96,19 @@
                     "label": "Ansprechend"
                 }
             },
-            "detailsUrl": "/probably-a-slug",
+            "detailsUrl": "details/hotel-3",
             "price": "ab 79€"
         },
         {
-            "id": "1234-1234-1234",
-            "slug": "Das Hotel 2",
+            "id": "1234-1234-3241",
+            "slug": "Das Hotel 4",
             "image": {
                 "src": "images/hotel-02.jpg",
-                "alt": "Zimmerbild für Hotel 2"
+                "alt": "Zimmerbild für Hotel 4"
             },
             "tileTitle": {
                 "starCount": 3,
-                "headline": "Hotel 2",
+                "headline": "Hotel 4",
                 "locationLabel": "Köln - 1,2 km entfernt vom Stadtzentrum"
             },
             "tileDetails": {
@@ -128,19 +128,19 @@
                     "label": "Sehr gut"
                 }
             },
-            "detailsUrl": "/probably-a-slug",
+            "detailsUrl": "details/hotel-4",
             "price": "ab 59€"
         },
         {
             "id": "4321-1234-4321",
-            "slug": "Das Hotel 3",
+            "slug": "Das Hotel 5",
             "image": {
                 "src": "images/hotel-03.jpg",
-                "alt": "Zimmerbild für Hotel 3"
+                "alt": "Zimmerbild für Hotel 5"
             },
             "tileTitle": {
                 "starCount": 5,
-                "headline": "Hotel 3",
+                "headline": "Hotel 5",
                 "locationLabel": "Köln - 0.3 km entfernt vom Stadtzentrum"
             },
             "tileDetails": {
@@ -160,7 +160,7 @@
                     "label": "Ansprechend"
                 }
             },
-            "detailsUrl": "/probably-a-slug",
+            "detailsUrl": "details/hotel-5",
             "price": "ab 79€"
         }
     ]
