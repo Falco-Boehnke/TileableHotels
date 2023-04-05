@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/TileableHotels/static/css/main.bbce6f84.css",
-    "main.js": "/TileableHotels/static/js/main.b51cc4d7.js",
+    "main.css": "/TileableHotels/static/css/main.7c1a108f.css",
+    "main.js": "/TileableHotels/static/js/main.369a9c2d.js",
     "static/js/787.3bdeda2b.chunk.js": "/TileableHotels/static/js/787.3bdeda2b.chunk.js",
+    "static/media/icon-heart_outline.svg": "/TileableHotels/static/media/icon-heart_outline.b31a18aebc438aab1ce4b468db7fd20e.svg",
     "static/media/icon-hygiene.svg": "/TileableHotels/static/media/icon-hygiene.16518f4bbf989358d0f4.svg",
     "index.html": "/TileableHotels/index.html",
     "static/media/icon-star.svg": "/TileableHotels/static/media/icon-star.d2d653a4433f08c05b79.svg",
     "static/media/icon-check.svg": "/TileableHotels/static/media/icon-check.d7352d9dd222a988da97.svg",
-    "main.bbce6f84.css.map": "/TileableHotels/static/css/main.bbce6f84.css.map",
-    "main.b51cc4d7.js.map": "/TileableHotels/static/js/main.b51cc4d7.js.map",
+    "main.7c1a108f.css.map": "/TileableHotels/static/css/main.7c1a108f.css.map",
+    "main.369a9c2d.js.map": "/TileableHotels/static/js/main.369a9c2d.js.map",
     "787.3bdeda2b.chunk.js.map": "/TileableHotels/static/js/787.3bdeda2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbce6f84.css",
-    "static/js/main.b51cc4d7.js"
+    "static/css/main.7c1a108f.css",
+    "static/js/main.369a9c2d.js"
   ]
 }
