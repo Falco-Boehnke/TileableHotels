@@ -34,7 +34,7 @@ function App() {
     <>
       <header className="header"></header>
       <div className="header__title__wrapper">
-        <span>Mobile</span>
+        <span></span>
         <SelectionBasket />
       </div>
       <main className="content-wrapper">

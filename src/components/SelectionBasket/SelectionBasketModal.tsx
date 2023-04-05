@@ -1,6 +1,5 @@
 import { HotelSelection } from "../../types/hotelType";
 import { RatingStars } from "../HotelTile/TileTitle/RatingStars";
-import { TileTitle } from "../HotelTile/TileTitle/TitleTile";
 import styles from "./SelectionBasket.module.css";
 
 interface SelectionBasketModalProps {

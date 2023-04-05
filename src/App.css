@@ -32,6 +32,10 @@ html {
   font-weight: bold;
 }
 
+.header__title__wrapper > span::after {
+  content: "Mobile"
+}
+
 .content-wrapper {
   min-width: 21rem;
   max-width: 50%;
@@ -161,6 +165,10 @@ html {
 }
 
 @media (min-width: 990px) {
+  .header__title__wrapper > span::after {
+    content: "Desktop"
+  }
+
   .content-wrapper {
     max-width: 80%;
   }
