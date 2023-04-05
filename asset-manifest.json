@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TileableHotels/static/css/main.0b6bee72.css",
+    "main.css": "/TileableHotels/static/css/main.e0ef5f2b.css",
     "main.js": "/TileableHotels/static/js/main.42664c87.js",
     "static/js/787.3bdeda2b.chunk.js": "/TileableHotels/static/js/787.3bdeda2b.chunk.js",
     "static/media/icon-heart_outline.svg": "/TileableHotels/static/media/icon-heart_outline.b31a18aebc438aab1ce4b468db7fd20e.svg",
@@ -8,12 +8,12 @@
     "index.html": "/TileableHotels/index.html",
     "static/media/icon-star.svg": "/TileableHotels/static/media/icon-star.d2d653a4433f08c05b79.svg",
     "static/media/icon-check.svg": "/TileableHotels/static/media/icon-check.d7352d9dd222a988da97.svg",
-    "main.0b6bee72.css.map": "/TileableHotels/static/css/main.0b6bee72.css.map",
+    "main.e0ef5f2b.css.map": "/TileableHotels/static/css/main.e0ef5f2b.css.map",
     "main.42664c87.js.map": "/TileableHotels/static/js/main.42664c87.js.map",
     "787.3bdeda2b.chunk.js.map": "/TileableHotels/static/js/787.3bdeda2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b6bee72.css",
+    "static/css/main.e0ef5f2b.css",
     "static/js/main.42664c87.js"
   ]
 }
