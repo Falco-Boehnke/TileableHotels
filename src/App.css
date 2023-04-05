@@ -107,7 +107,7 @@ html {
   margin-bottom: 1rem;
 }
 .tile__details__hygiene {
-  width: 100%;
+  min-width: 10rem;
   border-right: 1px solid #e0e0e0;
 }
 .tile__details__hygiene:only-child {
@@ -125,7 +125,7 @@ html {
 }
 
 .tile__details__rating {
-  width: 100%;
+  min-width: 7rem;
   min-height: 1.5rem;
 }
 
